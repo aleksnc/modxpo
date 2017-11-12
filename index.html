@@ -25,7 +25,7 @@
 			margin-bottom: 5px;
 		}
 
-		.slide_img{
+		.slide_img {
 			max-width: 80%;
 			position: relative !important;
 			display: block;
@@ -33,6 +33,42 @@
 			margin: 0 AUTO;
 			top: auto !important;
 			transform: initial !important;
+		}
+
+		.gray {
+			background-color: #626668;
+			text-align: center;
+		}
+
+		.gray h2 {
+			color: #fff;
+		}
+
+		.gray img {
+			max-width: 70%;
+		}
+
+		.gray a {
+			color: #fff;
+			margin: 10px 0;
+			display: inline-block;
+		}
+
+		.blue {
+			background-color: #a2cccb;
+		}
+
+		.blue h2 {
+			color: #fff;
+		}
+
+		.blue img {
+			max-width: 50%;
+		}
+
+		.lineHnorm{
+			line-height: normal;
+			font-size: 0.88em;
 		}
 
 	</style>
@@ -60,7 +96,7 @@
 
 				<li class="next"> Дальнейшие изменения проекта ложатся на плечи Бэкенда</li>
 				<!--TODO:  Изменения в верстке после интеграции ложатся на плечи Бэкенда-->
-				<li class="next">Перенести проект на другую технлогию практически невозможно </li>
+				<li class="next">Перенести проект на другую технлогию практически невозможно</li>
 				<!--TODO:  Фронт и Бэк слиты. При необходимости перенести проект на другую технологию возникнет очень много сложностей. -->
 
 
@@ -90,6 +126,7 @@
 </section>
 
 <section class="slide">
+	<!--TODO: И жнец и чтец-->
 	<h2>И жнец и чтец...</h2>
 
 	<div class="separate_wrap">
@@ -97,7 +134,7 @@
 			<img src="./pictures/fullstack.png" alt="" class="separate_img" style="width: 60%"/>
 		</div>
 		<div class="separate">
-			<p>Если Фулл стек и вы считаете:</p>
+			<p>Если вы Фулл стек и вы считаете:</p>
 			<ol>
 				<li class="next">Лишние технологии - лишние проблемы</li>
 				<li class="next">Использовать шаблонизатор это удобно</li>
@@ -111,215 +148,141 @@
 <section class="slide">
 	<h2>Таск-менеджер - плюс две пары рук для верстки</h2>
 
+	<!--TODO: Таск-менеджер -->
+
 	<img src="./pictures/gulp_grunt-1450648742926.png" alt="gulp_grunt" class="slide_img shout shrink"/>
 
 </section>
 
+<section class="slide gray">
+	<h2>TARS, Для тех, кто хочет прибавить в сорости!</h2>
+
+	<!--TODO: TARS, Для тех, кто хочет прибавить в сорости! -->
+
+	<img src="./pictures/tars.png" alt="TARS" class="slide_img shout shrink"/>
+
+	<a href="https://github.com/tars/tars">https://github.com/tars/tars</a>
+	<a href="https://habrahabr.ru/company/2gis/blog/254105/"
+	   class="next">https://habrahabr.ru/company/2gis/blog/254105/</a>
+
+</section>
+
+<section class="slide blue">
+	<h2>Сильный и независмый</h2>
+
+	<img src="./pictures/HTMLphp.JPG" alt="HTML and PHP" class="slide_img shout shrink"/>
+</section>
+
+
 <section class="slide">
+	<h2>Angular, React, Vue - первая тройка</h2>
+
+	<img src="./pictures/arv.png" alt="ARV" class=" slide_img shout shrink"/>
 </section>
 
 <section class="slide">
-</section>
+	<h2>Angular, React, Vue - первая тройка</h2>
 
-<section class="slide" id="cover">
-	<h2>Shower Presentation Engine</h2>
+	<ul>
+		<li class="next">Angular- больше фреймворк
+			<ol>
+				<li class="next">Разделяет логику от верстки</li>
+				<li class="next">Усложняет переиспользование кода</li>
+				<li class="next">TypeScript</li>
+			</ol>
 
-	<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
-	<figure>
-		<img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-		<figcaption class="white">
-			<a href="http://fiftyfootshadows.net/">© John Carey</a>
-		</figcaption>
-	</figure>
-	<style>
-		#cover h2 {
-			margin: 30px 0 0;
-			color: #FFF;
-			text-align: center;
-			font-size: 70px;
-		}
-
-		#cover p {
-			margin: 10px 0 0;
-			text-align: center;
-			color: #FFF;
-			font-style: italic;
-			font-size: 20px;
-		}
-
-		#cover p a {
-			color: #FFF;
-		}
-	</style>
-</section>
-
-<section class="slide">
-	<h2>Shower key features</h2>
-	<ol>
-		<li>Built on HTML, CSS and vanilla JavaScript</li>
-		<li>Works in all modern browsers</li>
-		<li>Themes are separated from engine</li>
-		<li>Modular and extensible</li>
-		<li>Fully keyboard accessible</li>
-		<li>Printable to PDF</li>
-	</ol>
-	<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-</section>
-
-<section class="slide">
-	<h2>Plain text on your slides</h2>
-
-	<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris
-		<strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in
-		voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-</section>
-
-<section class="slide">
-	<h2>Two columns if you like</h2>
-
-	<p class="double">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-		aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-</section>
-
-<section class="slide">
-	<h2>All kind of lists</h2>
-	<ol>
-		<li>Simple lists are marked with bullets</li>
-		<li>Ordered lists begin with a number</li>
-		<li>You can even nest lists one inside another
-			<ul>
-				<li>Or mix their types</li>
-				<li>But do not go too far</li>
-				<li>Otherwise audience will be bored</li>
-			</ul>
 		</li>
-		<li>Look, seven rows exactly!</li>
-	</ol>
+	</ul>
+
 </section>
 
 <section class="slide">
-	<h2>Serious citations</h2>
-	<figure>
-		<blockquote>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-		</blockquote>
-		<figcaption>Marcus Tullius Cicero</figcaption>
-	</figure>
+	<h2>Angular, React, Vue - первая тройка</h2>
+
+	<ul>
+		<li class="next">React - библиотека
+			<ol>
+				<li class="next">HTML и JS - единое целое</li>
+				<li class="next">возможно переиспользование кода</li>
+				<li class="next">Работает с "Тупыми компонентами"</li>
+				<li class="next">JS и HTML</li>
+			</ol>
+
+		</li>
+	</ul>
+
 </section>
 
 <section class="slide">
-	<h2>Code samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code>
-				<mark>&lt;head&gt;</mark>
-				<span class="comment">&lt;!--Comment--&gt;</span></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="
-				<mark class="important">UTF-8</mark>
-				"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code>
-				<mark>&lt;/head&gt;</mark>
-			</code>
-		</pre>
+	<h2>Angular, React, Vue - первая тройка</h2>
+
+	<ul>
+		<li class="next">VUE - библиотека
+			<ol>
+				<li class="next">Компромисс разделения ответственности</li>
+				<li class="next">возможно переиспользование кода</li>
+				<li class="next">Работает с "Тупыми компонентами"</li>
+				<li class="next">JS и HTML</li>
+			</ol>
+
+		</li>
+	</ul>
+
 </section>
 
 <section class="slide">
-	<h2>Even tables</h2>
-	<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-	</table>
-	<p>It’s good to have information organized.</p>
+	<h2>Что я должен выбрать?</h2>
+
+	<img src="./pictures/wwm.jpg" alt="wwm" class=" slide_img shout shrink" style="max-width: 90%;"/>
 </section>
 
-<section class="slide" id="picture">
-	<h2>Pictures</h2>
-	<figure>
-		<img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-		<figcaption class="white">
-			<a href="http://fiftyfootshadows.net/">© John Carey</a>
-		</figcaption>
-	</figure>
-	<style>
-		#picture h2 {
-			color: #FFF;
-		}
-	</style>
-</section>
+<section class="slide lineHnorm">
+	<h2>Что я должен выбрать?</h2>
+	<ul>
 
-<section class="slide">
-	<h2 class="shout shrink">You can even shout this way</h2>
-</section>
-
-<section class="slide">
-	<h2>Inner navigation</h2>
-	<ol>
-		<li>Lets you reveal list items one by one</li>
-		<li class="next">To keep some key points</li>
-		<li class="next">In secret from audience</li>
-		<li class="next">But it will work only once</li>
-		<li class="next">Nobody wants to see the same joke twice</li>
-	</ol>
-</section>
-
-<section class="slide grid">
-	<h2>All nicely aligned to grid</h2>
-</section>
-
-<section class="slide" id="see-more">
-	<h2 class="shout">
-		<img src="pictures/logo.svg" alt="Shower logo">
-		<a href="https://github.com/shower/shower">See more on GitHub</a>
-	</h2>
-	<style>
-		#see-more h2 {
-			font-size: 100px
-		}
-
-		#see-more img {
-			width: 0.72em;
-			height: 0.72em;
-		}
-	</style>
-
+		<li class="next">
+			Если вы работаете в Google: <b>Angular</b>
+		</li>
+		<li class="next">
+			Если вы любите TypeScript: <b>Angular(или React)</b>
+		</li>
+		<li class="next">
+			Если вы работаете в Facebook:<b> React</b>
+		</li>
+		<li class="next">
+			Если вам нравится гибкость: <b>React</b>
+		</li>
+		<li class="next">
+			Если вы любите большие экосистемы:<b> React</b>
+		</li>
+		<li class="next">
+			Если вам нравится выбирать из десятков пакетов:<b> React</b>
+		</li>
+		<li class="next">
+			Если вы любиле JS и подход “все-есть-JavaScript”: <b>React</b>
+		</li>
+		<li class="next">
+			Если вы хотите самый легковесный фреймворк: <b>Vue</b>
+		</li>
+		<li class="next">
+			Если вы работаете один или в небольшой команде: <b>Vue(или React)</b>
+		</li>
+		<li class="next">
+			Если ваше приложение имеет тенденцию разрастаться:<b> Angular(или React)</b>
+		</li>
+		<li class="next">
+			Если вы хотите иметь большой пул девелоперов: <b>Angular или React</b>
+		</li>
+		<li class="next">
+			Если вам нужны чистые HTML-файлы:<b> Angular или Vue</b>
+		</li>
+		<li class="next">
+			Если вам нравится Vue, но пугает ограниченная экосистема:<b> React</b>
+		</li>
+		<li class="next">
+			Если вы не можете решить, изучите сначала React, затем Vue, затем Angular
+		</li>
+	</ul>
 
 </section>
 
